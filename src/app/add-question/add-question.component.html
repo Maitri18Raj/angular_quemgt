@@ -1,14 +1,15 @@
 <p>add-question works!</p>
 <form #data="ngForm" (ngSubmit)="addQuestion(data)">
     <div>
-        <label>Question</label>
-        <input type="text" ngModel name="question">
+        <label>TestId</label>
+        <input type="number" ngModel name="testId">
     </div> 
 
     <div>
-        <label>Id</label>
-        <input type="number" ngModel name="Id">
+        <label>QuestionTitle</label>
+        <input type="text" ngModel name="questionTitle">
     </div>
+
 
     <input type="submit" value="submit">
 
